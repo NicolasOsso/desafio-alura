@@ -9,6 +9,14 @@
     .card__vagas{
         width: 100%;
     }
+    
+    .colaboradores{
+        margin: 2rem 0 7rem 0;
+    }
+    
+    .formulario__oportunidades-rodape{
+        gap: 1rem;
+    }
 }
 
 @media (max-width: 720px){
