@@ -1,0 +1,56 @@
+@media (max-width: 500px){
+    .img__vagas_abertas{
+        width: 99%;
+    }
+
+    .vagas-programar{
+        width: 100%;
+    }
+    .card__vagas{
+        width: 100%;
+    }
+}
+
+@media (max-width: 720px){
+    .metricas-container{
+        grid-template-columns: 80%;
+        grid-gap: 2rem;
+    }
+    .talentos{
+        text-align: center;
+    }
+
+    .vagas-programar{
+        width: 90%;
+        padding: 0 3rem;
+    }
+
+
+    .textos__card{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 740px){
+    .container__cabecalho{
+        flex-direction: column;
+        text-align: center;
+        gap: 32px;
+
+    }
+
+    .div-vazia{
+        display: none;
+    }
+
+    .menu{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu__li{
+        border: 1px solid #D0D5DD;
+        border-radius: 12px;
+        padding: 7px 12px;
+    }
+}
